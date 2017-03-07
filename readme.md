@@ -2,6 +2,12 @@
 
 Simple [Topological Sorting](https://en.wikipedia.org/wiki/Topological_sorting "Wikipedia Link") (aka Dependency Resolution) algorithm implementation in PHP.
 
+## Install
+
+```
+composer require pustato/topsort
+```
+
 ## Example usage
 
 Implement interface `\Pustato\TopSort\Contracts\Sortable`:
