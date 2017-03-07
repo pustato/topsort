@@ -1,0 +1,24 @@
+{
+  "name": "pustato/topsort",
+  "description": "Topological sorting implementation in PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Atamanov",
+      "email": "pustato.aas@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "mockery/mockery": "^0.9.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pustato\\TopSort\\": "src/"
+    }
+  }
+}
