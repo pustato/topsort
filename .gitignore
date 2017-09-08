@@ -2,3 +2,4 @@
 /vendor
 *.nogit
 *.nogit.*
+composer.lock
